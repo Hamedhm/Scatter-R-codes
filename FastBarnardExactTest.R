@@ -79,6 +79,7 @@ fastBarnardextest  = function(x,
       p.value            = unname(min(tail * p.value, 1)),
       Nuisance.parameter = unname(Nuisance.parameter),
       Wald.Statistic     = unname(TXO)               ,
+      tail               = tail                      ,
       seq                = r
     )
   )
